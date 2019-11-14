@@ -30,6 +30,10 @@ class NotificationController {
 
     return res.json(notification);
   }
+
+  async delete(req, res) {
+    return res.json();
+  }
 }
 
 export default new NotificationController();
